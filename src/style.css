@@ -1,0 +1,62 @@
+:root {
+    --primary-color: rgb(75, 160, 161);
+    --secondary-color: rgb(226, 244, 244);
+    --background-color: rgb(248, 246, 254);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --headings-font: 'Playfair Display', serif;
+    --main-font: font-family: 'Rubik', sans-serif;
+}
+
+body {
+background-color: var(--secondary-color);
+}
+
+.container {
+    margin-top: 10px;
+    max-width: 100%;
+}
+header {
+    background-image: url(../images/Capri.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--background-color);
+    text-align: center;
+    padding: 245px 0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: var(--headings-font);
+}
+
+h2 {
+    font-size: 30px;
+    font-family: var(--headings-font);
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-size: 22px;
+    color: var(--background-color);
+    font-family: var(--headings-font);
+}
+
+.learn-more-link {
+    border-radius: 4px;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--background-color);
+    box-shadow: var(--box-shadow);
+    color: #404236;
+    font-family: var(--main-font);
+}
+
+@media (max-width: 900px) {
+.container {
+    margin-top: 10px;
+    max-width: 100%;
+}
+}
